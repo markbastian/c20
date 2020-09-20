@@ -12,7 +12,7 @@ Data is obtained from the [www.dnd5eapi.co](https://www.dnd5eapi.co/) project.
 Git repos:
 
 * [API](https://github.com/bagelbits/5e-srd-api)
-* [Database](https://github.com/bagelbits/5e-database)
+* [Database](https://github.com/bagelbits/5e-database) - The .json files in the resource dir are sourced from this project. At some point when everything is merged I anticipate just pulling from there.
 
 ## License
 
