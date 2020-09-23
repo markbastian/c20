@@ -80,7 +80,7 @@
         "url": "/api/ability-scores/con"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/barbarian",
+    "starting_equipment": "/api/starting-equipment/barbarian",
     "class_levels": "/api/classes/barbarian/levels",
     "subclasses": [
       {
@@ -89,8 +89,6 @@
         "url": "/api/subclasses/berserker"
       }
     ],
-    "fix_spellcasting": {},
-    "fix_spells": "/api/classes/barbarian/spells",
     "url": "/api/classes/barbarian"
   },
   {
@@ -295,7 +293,7 @@
         "url": "/api/ability-scores/cha"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/bard",
+    "starting_equipment": "/api/starting-equipment/bard",
     "class_levels": "/api/classes/bard/levels",
     "subclasses": [
       {
@@ -304,8 +302,8 @@
         "url": "/api/subclasses/lore"
       }
     ],
-    "fix_spellcasting": "/api/spellcasting/bard",
-    "fix_spells": "/api/classes/bard/spells",
+    "spellcasting": "/api/spellcasting/bard",
+    "spells": "/api/classes/bard/spells",
     "url": "/api/classes/bard"
   },
   {
@@ -379,7 +377,7 @@
         "url": "/api/ability-scores/cha"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/cleric",
+    "starting_equipment": "/api/starting-equipment/cleric",
     "class_levels": "/api/classes/cleric/levels",
     "subclasses": [
       {
@@ -388,8 +386,8 @@
         "url": "/api/subclasses/life"
       }
     ],
-    "fix_spellcasting": "/api/spellcasting/cleric",
-    "fix_spells": "/api/classes/cleric/spells",
+    "spellcasting": "/api/spellcasting/cleric",
+    "spells": "/api/classes/cleric/spells",
     "url": "/api/classes/cleric"
   },
   {
@@ -528,7 +526,7 @@
         "url": "/api/ability-scores/wis"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/druid",
+    "starting_equipment": "/api/starting-equipment/druid",
     "class_levels": "/api/classes/druid/levels",
     "subclasses": [
       {
@@ -537,8 +535,8 @@
         "url": "/api/subclasses/land"
       }
     ],
-    "fix_spellcasting": "/api/spellcasting/druid",
-    "fix_spells": "/api/classes/druid/spells",
+    "spellcasting": "/api/spellcasting/druid",
+    "spells": "/api/classes/druid/spells",
     "url": "/api/classes/druid"
   },
   {
@@ -627,7 +625,7 @@
         "url": "/api/ability-scores/con"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/fighter",
+    "starting_equipment": "/api/starting-equipment/fighter",
     "class_levels": "/api/classes/fighter/levels",
     "subclasses": [
       {
@@ -636,8 +634,6 @@
         "url": "/api/subclasses/champion"
       }
     ],
-    "fix_spellcasting": {},
-    "fix_spells": "/api/classes/fighter/spells",
     "url": "/api/classes/fighter"
   },
   {
@@ -863,7 +859,7 @@
         "url": "/api/ability-scores/dex"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/monk",
+    "starting_equipment": "/api/starting-equipment/monk",
     "class_levels": "/api/classes/monk/levels",
     "subclasses": [
       {
@@ -872,8 +868,6 @@
         "url": "/api/subclasses/open-hand"
       }
     ],
-    "fix_spellcasting": {},
-    "fix_spells": "/api/classes/monk/spells",
     "url": "/api/classes/monk"
   },
   {
@@ -952,7 +946,7 @@
         "url": "/api/ability-scores/cha"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/paladin",
+    "starting_equipment": "/api/starting-equipment/paladin",
     "class_levels": "/api/classes/paladin/levels",
     "subclasses": [
       {
@@ -961,8 +955,8 @@
         "url": "/api/subclasses/devotion"
       }
     ],
-    "fix_spellcasting": "/api/spellcasting/paladin",
-    "fix_spells": "/api/classes/paladin/spells",
+    "spellcasting": "/api/spellcasting/paladin",
+    "spells": "/api/classes/paladin/spells",
     "url": "/api/classes/paladin"
   },
   {
@@ -1056,7 +1050,7 @@
         "url": "/api/ability-scores/dex"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/ranger",
+    "starting_equipment": "/api/starting-equipment/ranger",
     "class_levels": "/api/classes/ranger/levels",
     "subclasses": [
       {
@@ -1065,8 +1059,8 @@
         "url": "/api/subclasses/hunter"
       }
     ],
-    "fix_spellcasting": "/api/spellcasting/ranger",
-    "fix_spells": "/api/classes/ranger/spells",
+    "spellcasting": "/api/spellcasting/ranger",
+    "spells": "/api/classes/ranger/spells",
     "url": "/api/classes/ranger"
   },
   {
@@ -1185,7 +1179,7 @@
         "url": "/api/ability-scores/int"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/rogue",
+    "starting_equipment": "/api/starting-equipment/rogue",
     "class_levels": "/api/classes/rogue/levels",
     "subclasses": [
       {
@@ -1194,8 +1188,6 @@
         "url": "/api/subclasses/thief"
       }
     ],
-    "fix_spellcasting": {},
-    "fix_spells": "/api/classes/rogue/spells",
     "url": "/api/classes/rogue"
   },
   {
@@ -1274,7 +1266,7 @@
         "url": "/api/ability-scores/cha"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/sorcerer",
+    "starting_equipment": "/api/starting-equipment/sorcerer",
     "class_levels": "/api/classes/sorcerer/levels",
     "subclasses": [
       {
@@ -1283,8 +1275,8 @@
         "url": "/api/subclasses/draconic"
       }
     ],
-    "fix_spellcasting": "/api/spellcasting/sorcerer",
-    "fix_spells": "/api/classes/sorcerer/spells",
+    "spellcasting": "/api/spellcasting/sorcerer",
+    "spells": "/api/classes/sorcerer/spells",
     "url": "/api/classes/sorcerer"
   },
   {
@@ -1358,7 +1350,7 @@
         "url": "/api/ability-scores/cha"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/warlock",
+    "starting_equipment": "/api/starting-equipment/warlock",
     "class_levels": "/api/classes/warlock/levels",
     "subclasses": [
       {
@@ -1367,8 +1359,8 @@
         "url": "/api/subclasses/fiend"
       }
     ],
-    "fix_spellcasting": "/api/spellcasting/warlock",
-    "fix_spells": "/api/classes/warlock/spells",
+    "spellcasting": "/api/spellcasting/warlock",
+    "spells": "/api/classes/warlock/spells",
     "url": "/api/classes/warlock"
   },
   {
@@ -1447,7 +1439,7 @@
         "url": "/api/ability-scores/wis"
       }
     ],
-    "fix_starting_equipment": "/api/starting-equipment/wizard",
+    "starting_equipment": "/api/starting-equipment/wizard",
     "class_levels": "/api/classes/wizard/levels",
     "subclasses": [
       {
@@ -1456,8 +1448,8 @@
         "url": "/api/subclasses/evocation"
       }
     ],
-    "fix_spellcasting": "/api/spellcasting/wizard",
-    "fix_spells": "/api/classes/wizard/spells",
+    "spellcasting": "/api/spellcasting/wizard",
+    "spells": "/api/classes/wizard/spells",
     "url": "/api/classes/wizard"
   }
 ]

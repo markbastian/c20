@@ -178,10 +178,26 @@
         m))
     m))
 
-(->> (map denil data)
-     (reduce d/db-with (d/empty-db schema))
-     (take 100)
-     (filter (fn [[e a v t]] (map? v)))
-     (first))
+;(->> (map denil data)
+;     (reduce d/db-with (d/empty-db schema))
+;     (take 100)
+;     (filter (fn [[e a v t]] (map? v)))
+;     (first))
+;
+;(nth (map denil data) 5)
 
-(nth (map denil data) 5)
+(comment
+  (->> "resources/5e-SRD-Ability-Scores.json" load-data))
+
+(defn fix-monster-proficiencies []
+  (letfn [(writer [data] (j/write-value-as-string data (j/object-mapper {:pretty true})))
+          (load-data [src] (-> src slurp (j/read-value j/keyword-keys-object-mapper)))]
+    (->> "resources/5e-SRD-Monsters.json"
+         load-data
+         (map (fn [{:keys [proficiencies] :as m}]
+                (assoc m :proficiencies
+                         (for [{:keys [value] :as proficiency} proficiencies]
+                           {:value       value
+                            :proficiency (dissoc proficiency :value)}))))
+         writer
+         (spit "resources/5e-SRD-Monsters-fixed.json"))))

@@ -288,26 +288,24 @@
         "choose": 1,
         "type": "equipment",
         "from": [
-          {
-            "equipment_option": [
-              {
-                "equipment": {
-                  "index": "crossbow-light",
-                  "name": "Crossbow, light",
-                  "url": "/api/equipment/crossbow-light"
-                },
-                "quantity": 1
+          [
+            {
+              "equipment": {
+                "index": "crossbow-light",
+                "name": "Crossbow, light",
+                "url": "/api/equipment/crossbow-light"
               },
-              {
-                "equipment": {
-                  "index": "crossbow-bolt",
-                  "name": "Crossbow bolt",
-                  "url": "/api/equipment/crossbow-bolt"
-                },
-                "quantity": 20
-              }
-            ]
-          },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "crossbow-bolt",
+                "name": "Crossbow bolt",
+                "url": "/api/equipment/crossbow-bolt"
+              },
+              "quantity": 20
+            }
+          ],
           {
             "equipment_option": {
               "choose": 1,
@@ -467,72 +465,68 @@
         "type": "equipment",
         "from": [
           {
-            "equipment_option": {
+            "equipment": {
               "index": "chain-mail",
               "name": "Chain Mail",
               "url": "/api/equipment/chain-mail"
             },
             "quantity": 1
           },
-          {
-            "equipment_option": [
-              {
-                "equipment": {
-                  "index": "leather",
-                  "name": "Leather",
-                  "url": "/api/equipment/leather"
-                },
-                "quantity": 1
+          [
+            {
+              "equipment": {
+                "index": "leather",
+                "name": "Leather",
+                "url": "/api/equipment/leather"
               },
-              {
-                "equipment": {
-                  "index": "longbow",
-                  "name": "Longbow",
-                  "url": "/api/equipment/longbow"
-                },
-                "quantity": 1
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "longbow",
+                "name": "Longbow",
+                "url": "/api/equipment/longbow"
               },
-              {
-                "equipment": {
-                  "index": "arrow",
-                  "name": "Arrow",
-                  "url": "/api/equipment/arrow"
-                },
-                "quantity": 20
-              }
-            ]
-          }
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "arrow",
+                "name": "Arrow",
+                "url": "/api/equipment/arrow"
+              },
+              "quantity": 20
+            }
+          ]
         ]
       },
       {
         "choose": 1,
         "type": "equipment",
         "from": [
-          {
-            "equipment_option": [
-              {
-                "equipment": {
-                  "index": "shield",
-                  "name": "Shield",
-                  "url": "/api/equipment/shield"
-                },
-                "quantity": 1
+          [
+            {
+              "equipment": {
+                "index": "shield",
+                "name": "Shield",
+                "url": "/api/equipment/shield"
               },
-              {
-                "equipment_option": {
-                  "choose": 1,
-                  "type": "equipment",
-                  "from": {
-                    "equipment_category": {
-                      "index": "martial-weapons",
-                      "name": "Martial Weapons",
-                      "url": "/api/equipment-categories/martial-weapons"
-                    }
+              "quantity": 1
+            },
+            {
+              "equipment_option": {
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "equipment_category": {
+                    "index": "martial-weapons",
+                    "name": "Martial Weapons",
+                    "url": "/api/equipment-categories/martial-weapons"
                   }
                 }
               }
-            ]
-          },
+            }
+          ],
           {
             "equipment_option": {
               "choose": 2,
@@ -560,26 +554,24 @@
             },
             "quantity": 2
           },
-          {
-            "equipment_option": [
-              {
-                "equipment": {
-                  "index": "crossbow-light",
-                  "name": "Crossbow, light",
-                  "url": "/api/equipment/crossbow-light"
-                },
-                "quantity": 1
+          [
+            {
+              "equipment": {
+                "index": "crossbow-light",
+                "name": "Crossbow, light",
+                "url": "/api/equipment/crossbow-light"
               },
-              {
-                "equipment": {
-                  "index": "crossbow-bolt",
-                  "name": "Crossbow bolt",
-                  "url": "/api/equipment/crossbow-bolt"
-                },
-                "quantity": 20
-              }
-            ]
-          }
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "crossbow-bolt",
+                "name": "Crossbow bolt",
+                "url": "/api/equipment/crossbow-bolt"
+              },
+              "quantity": 20
+            }
+          ]
         ]
       },
       {
@@ -699,31 +691,29 @@
         "choose": 1,
         "type": "equipment",
         "from": [
-          {
-            "equipment_option": [
-              {
-                "equipment": {
-                  "index": "shield",
-                  "name": "Shield",
-                  "url": "/api/equipment/shield"
-                },
-                "quantity": 1
+          [
+            {
+              "equipment": {
+                "index": "shield",
+                "name": "Shield",
+                "url": "/api/equipment/shield"
               },
-              {
-                "equipment_option": {
-                  "choose": 1,
-                  "type": "equipment",
-                  "from": {
-                    "equipment_category": {
-                      "name": "Martial Weapons",
-                      "index": "martial-weapons",
-                      "url": "/api/equipment-categories/martial-weapons"
-                    }
+              "quantity": 1
+            },
+            {
+              "equipment_option": {
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                  "equipment_category": {
+                    "name": "Martial Weapons",
+                    "index": "martial-weapons",
+                    "url": "/api/equipment-categories/martial-weapons"
                   }
                 }
               }
-            ]
-          },
+            }
+          ],
           {
             "equipment_option": {
               "choose": 2,
@@ -961,35 +951,31 @@
         "type": "equipment",
         "from": [
           {
-            "equipment_option": [{
+            "equipment": {
+              "index": "shortsword",
+              "name": "Shortsword",
+              "url": "/api/equipment/shortsword"
+            },
+            "quantity": 1
+          },
+          [
+            {
               "equipment": {
-                "index": "shortsword",
-                "name": "Shortsword",
-                "url": "/api/equipment/shortsword"
+                "index": "shortbow",
+                "name": "Shortbow",
+                "url": "/api/equipment/shortbow"
               },
               "quantity": 1
-            }]
-          },
-          {
-            "equipment_option": [
-              {
-                "equipment": {
-                  "index": "shortbow",
-                  "name": "Shortbow",
-                  "url": "/api/equipment/shortbow"
-                },
-                "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "arrow",
+                "name": "Arrow",
+                "url": "/api/equipment/arrow"
               },
-              {
-                "equipment": {
-                  "index": "arrow",
-                  "name": "Arrow",
-                  "url": "/api/equipment/arrow"
-                },
-                "quantity": 20
-              }
-            ]
-          }
+              "quantity": 20
+            }
+          ]
         ]
       },
       {
@@ -1047,26 +1033,24 @@
         "choose": 1,
         "type": "equipment",
         "from": [
-          {
-            "equipment_option": [
-              {
-                "equipment": {
-                  "index": "crossbow-light",
-                  "name": "Crossbow, light",
-                  "url": "/api/equipment/crossbow-light"
-                },
-                "quantity": 1
+          [
+            {
+              "equipment": {
+                "index": "crossbow-light",
+                "name": "Crossbow, light",
+                "url": "/api/equipment/crossbow-light"
               },
-              {
-                "equipment": {
-                  "index": "crossbow-bolt",
-                  "name": "Crossbow bolt",
-                  "url": "/api/equipment/crossbow-bolt"
-                },
-                "quantity": 20
-              }
-            ]
-          },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "crossbow-bolt",
+                "name": "Crossbow bolt",
+                "url": "/api/equipment/crossbow-bolt"
+              },
+              "quantity": 20
+            }
+          ],
           {
             "equipment_option": {
               "choose": 1,
@@ -1164,26 +1148,24 @@
         "choose": 1,
         "type": "equipment",
         "from": [
-          {
-            "equipment_option:": [
-              {
-                "equipment": {
-                  "index": "crossbow-light",
-                  "name": "Crossbow, light",
-                  "url": "/api/equipment/crossbow-light"
-                },
-                "quantity": 1
+          [
+            {
+              "equipment": {
+                "index": "crossbow-light",
+                "name": "Crossbow, light",
+                "url": "/api/equipment/crossbow-light"
               },
-              {
-                "equipment": {
-                  "index": "crossbow-bolt",
-                  "name": "Crossbow bolt",
-                  "url": "/api/equipment/crossbow-bolt"
-                },
-                "quantity": 20
-              }
-            ]
-          },
+              "quantity": 1
+            },
+            {
+              "equipment": {
+                "index": "crossbow-bolt",
+                "name": "Crossbow bolt",
+                "url": "/api/equipment/crossbow-bolt"
+              },
+              "quantity": 20
+            }
+          ],
           {
             "equipment_option": {
               "choose": 1,
