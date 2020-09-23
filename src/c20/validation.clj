@@ -3,6 +3,7 @@
             [c20.core :as core]
             [clojure.spec.alpha :as s]))
 
-(->> "resources/5e-SRD-Ability-Scores.json"
-     core/load-data
-     (s/valid? ::srd-ability-scores))
+(comment
+  (->> "resources/5e-SRD-Ability-Scores.json"
+       core/load-data
+       (s/valid? ::srd-ability-scores)))
